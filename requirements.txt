@@ -1,0 +1,14 @@
+pandas           # Data manipulation and analysis library.
+mlflow           # Platform for managing machine learning lifecycle.
+notebook         # Jupyter Notebook for creating interactive documents.
+numpy           # Core library for numerical computing and arrays.
+scikit-learn     # Machine learning library for classification and regression.
+matplotlib       # Plotting library for visualizations.
+python-box       # Simplifies working with dictionaries using dot notation.
+types-pyYAML             # Library to read and write YAML files.
+tqdm            # Progress bar for loops and tasks.
+joblib           # Efficient serialization of Python objects.
+Flask            # Lightweight web framework for building web apps.
+Flask-Cors
+ensure==1.0.2    # CORS support for Flask applications.
+-e . #-e . in requirements.txt installs the package from the current directory in editable mode.
