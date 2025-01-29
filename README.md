@@ -11,4 +11,20 @@
 
 
 ## UTILS.PY
-Un archivo utils.py generalmente contiene funciones que se utilizan a lo largo de tu proyecto, como procesamiento de datos, manipulación de archivos, validaciones, entre otras.
+A utils.py file generally contains functions that are used throughout your project, such as data processing, file manipulation, validations, and more.
+
+## the yaml files should not be empty
+
+## Workflows
+
+1. Update config.yaml 
+2. Update schema.yaml 
+3. Update params.yaml
+4. Update the entity
+5. Update the configuration manager in src config
+6. Update the components
+7. Update the pipeline
+8. Update the main.py
+9. Update the app.yaml
+
+

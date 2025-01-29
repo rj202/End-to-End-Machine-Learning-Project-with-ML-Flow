@@ -1,0 +1,8 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/rj202/End-to-End-Machine-Learning-Project-with-ML-Flow/raw/refs/heads/main/winequality-red.zip #upload the zip file in github repository and right click the file for copy the path.
+  local_data_file: artifacts/data_ingestion/data.zip
+ # save the data in this local folder 
+  unzip_dir: artifacts/data_ingestion
