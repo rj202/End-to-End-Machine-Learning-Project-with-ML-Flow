@@ -10,10 +10,15 @@
     You prefer a flexible format but are willing to deal with indentation as a strict rule.
 
 
+## the yaml files should not be empty
+
+## Config file:
+A config file is usually meant to hold dynamic settings (like user settings, environment-specific configurations, or settings that change between deployments). This allows for easy adjustments without touching the code.
+## Constant file:
+This is more focused on values that are static and code-related, such as file paths, hardcoded configuration values, or other system-level constants.
+
 ## UTILS.PY
 A utils.py file generally contains functions that are used throughout your project, such as data processing, file manipulation, validations, and more.
-
-## the yaml files should not be empty
 
 ## Workflows
 
